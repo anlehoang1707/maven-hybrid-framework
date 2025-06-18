@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite">
+
+    <listeners>
+        <listener class-name="commons.MethodListener"></listener>
+        <listener class-name="reportConfigs.AllureTestListener"></listener>
+    </listeners>
+
+    <parameter name="url" value="https://demo.guru99.com/V1/index.php" />
+    <test name="Run on Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.bankguru99.customer.Customer_01" />
+        </classes>
+    </test>
+</suite>
