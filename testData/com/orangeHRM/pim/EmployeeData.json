@@ -1,0 +1,34 @@
+{
+  "employee": {
+    "personalInfo": {
+      "initialEmployeeID": "EMP12123",
+      "username": "nguyenvancde",
+      "firstName": "C",
+      "lastName": "Nguyen",
+      "middleName": "Van",
+      "contact": {
+        "homePhone": "021-789-1234",
+        "workPhone": "021-789-5678",
+        "mobilePhone": "+84-916-123-678",
+        "workEmail": "nguyen.abcd@company.com",
+        "otherEmail": "van.csfds@example.com"
+      },
+      "address": {
+        "street1": "7321 Le Loi Street",
+        "street2": "Apt 100",
+        "city": "Ho Chi Minh City",
+        "stateProvince": "Ho Chi Minh",
+        "zipPostalCode": "700000",
+        "countryName": "Vietnam"
+      }
+    },
+    "emergencyContact": {
+      "name": "Tran Thi Mai Hoa",
+      "relationship": "Sister",
+      "homePhone": "021-556-8765"
+    },
+    "dependent": {
+      "name": "Nguyen Thi Mai"
+    }
+  }
+}
